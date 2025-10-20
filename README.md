@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+💼 Job Hunt – Find Your Perfect Job
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to **Job Hunt**, a modern **React-based job searching app** that helps users discover, filter, and explore job opportunities effortlessly.  
+Fast, responsive, and beautifully designed — deployed seamlessly with **Vercel** 🚀
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+✨ Overview
 
-### `npm start`
+**Job Hunt** simplifies your job search experience by bringing all the latest opportunities to one place.  
+With powerful filters, intuitive design, and instant updates, it ensures users spend less time searching and more time applying.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+⚡ Features
 
-### `npm test`
+✅ View the latest job listings  
+✅ Filter by **location**, **category**, or **salary**  
+✅ Beautiful, responsive UI built with React    
+✅ Deployed on **Vercel** for instant global access  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+🛠️ Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| Technology | Purpose |
+|-------------|----------|
+| React.js| Frontend framework |
+| Vite  | Build tool  |
+| CSS3| Styling and layout |
+| JavaScript (ES6) | App logic |
+| Vercel | Hosting and CI/CD |
+| React Router | Navigation |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+📦 Installation
 
-### `npm run eject`
+To run this project locally:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Clone this repository
+git clone https://github.com/Hasadhika/job-portal.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Navigate into the project folder
+cd job-portal
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Install dependencies
+npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Start the development server
+npm run dev
 
-## Learn More
+🚀 Deployment
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The project is deployed on Vercel, enabling automatic builds and updates.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+Live Demo: https://job-portal-two-gold.vercel.app
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+📸 Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+<img width="500" height="500" alt="Screenshot 2025-10-20 142436" src="https://github.com/user-attachments/assets/6a65daef-e5a2-4468-bd65-56e65e152dda" />
+<img width="500" height="500" alt="Screenshot 2025-10-20 142400" src="https://github.com/user-attachments/assets/d5900859-b503-4f2e-b509-41a500e08a07" />
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+🧑‍💻 Author
 
-### `npm run build` fails to minify
+Hasadhika Thottempudi
+Frontend Developer | Lifelong Learner
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+📜 License
+
+Feel free to use, modify, and distribute this project with proper attribution.
+
+
