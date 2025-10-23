@@ -1,20 +1,17 @@
 // src/components/Header.js
 
-import React, { useState, useEffect } from 'react'; // 1. Add useState here
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { SignedIn, SignedOut, UserButton, useUser } from '@clerk/clerk-react'; // 1. Import useUser
 
 function Header() {
-  // 2. Add this line to create the state variable
   const [isNavActive, setIsNavActive] = useState(false);
+  const { user } = useUser(); // 2. Get the user object from the hook
 
   useEffect(() => {
-    const handleScroll = () => {
-      setIsNavActive(false);
-    };
+    const handleScroll = () => setIsNavActive(false);
     window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
+    return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   return (
@@ -27,9 +24,27 @@ function Header() {
           <Link to="/about">about us</Link>
           <Link to="/jobs">all jobs</Link>
           <Link to="/contact">contact us</Link>
-          <Link to="/login">login</Link>
+          
+          <SignedOut>
+            <Link to="/login">login</Link>
+          </SignedOut>
         </nav>
-        <a href="#" className="btn" style={{ marginTop: 0 }}>post a job</a>
+        
+        <SignedIn>
+          {/* 3. Create a container for the welcome message and user button */}
+          <div className="user-info">
+            {/* Display the user's first name if it exists */}
+            <span className="user-name">
+              Hello, {user ? user.firstName : 'User'}!
+            </span>
+            <UserButton afterSignOutUrl="/" /> 
+          </div>
+        </SignedIn>
+
+        <SignedOut>
+           <Link to="/login" className="btn" style={{ marginTop: 0 }}>post a job</Link>
+        </SignedOut>
+
       </section>
     </header>
   );

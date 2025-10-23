@@ -920,6 +920,25 @@ section{
 .chat-input button:hover {
   background: var(--black);
 }
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  /* margin-left: auto; <-- REMOVE THIS LINE */
+  padding-left: 1rem; /* Keep some padding */
+}
+
+.auth-container {
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Stack items vertically if needed */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  padding: 4rem 2rem; /* Add padding around */
+  min-height: calc(100vh - 14rem); /* Calculate height: Full viewport minus header/footer height (adjust 14rem if needed) */
+  width: 100%; /* Ensure container takes full width */
+  background-color: var(--light-bg);
+}
+
 
 
 
