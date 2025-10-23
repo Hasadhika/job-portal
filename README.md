@@ -55,7 +55,7 @@ npm run dev
 The project is deployed on Vercel, enabling automatic builds and updates.
 
 
-Live Demo: https://job-portal-two-gold.vercel.app
+Live Demo: https://job-portal-8x9bheyh0-hasadhikas-projects.vercel.app/
 
 
 📸 Screenshots
